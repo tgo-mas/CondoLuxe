@@ -23,18 +23,18 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Condomínio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Artigos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#carouselUnidades">Condomínio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#artigos">Artigos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#foot">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#foot">Sobre</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-    <main>
-        <div class="container">
+    <main class="container-fluid">
+        <div class="container-fluid">
             <div id="carouselUnidades" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -69,8 +69,8 @@
             </div>
         </div>
 
-        <section class="cards">
-            <div class="card" style="width: 18rem;">
+        <section class="cards row" id="artigos">
+            <div class="card col col-sm-12 col-12" style="width: 18rem;">
                 <img src="https://www.hoteliernews.com.br/wp-content/uploads/2020/08/fohb-dados-do-estudo-capa.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">5 Estrelas!</h5>
@@ -78,7 +78,7 @@
                     <a href="#" class="btn btn-primary">Ver artigo</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card col col-sm-12 col-12" style="width: 18rem;">
                 <img src="https://www.lopes.com.br/blog/wp-content/uploads/2016/11/hotel-lopes.jpg" class="card-img-top" alt="Economia">
                 <div class="card-body">
                     <h5 class="card-title">Mais economia</h5>
@@ -88,6 +88,52 @@
             </div>
         </section>
     </main>
+
+    <footer class="container" id="foot">
+        <div class="container">
+            <div>
+                <h2>Contato</h2>
+                <table>
+                    <tr>
+                        <td>
+                            Email:
+                        </td>
+                        <td>
+                            example@condoLuxe.com
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Telefone:
+                        </td>
+                        <td>
+                            (84) 9 9499-0999
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Endereço:
+                        </td>
+                        <td>
+                            Rua Vereador José Exemplo, 123 - Penedo, Caicó, RN.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            CEP:
+                        </td>
+                        <td>
+                            59300-000
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <h2>Sobre</h2>
+                <p>A CondoLuxe é uma empresa fictícia de reservas de hotéis. Aqui você não encontra os preços mais baixos para realizar sua viagem dos sonhos! Faça já sua reserva em nossos hotéis!</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

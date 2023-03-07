@@ -44,3 +44,37 @@ body{
 .card{
     margin: 60px;
 }
+
+footer{
+    background-color: aquamarine;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+footer .container{
+    display: flex;
+}
+
+footer .container div{
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 100%;
+    text-align: justify;
+    width: 50%;
+}
+
+@media (max-width: 576px) {
+    #carouselUnidades{
+        width: 100vw !important;
+    }
+
+    footer .container{
+        flex-direction: column;
+    }
+
+    footer .container div{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
