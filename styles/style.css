@@ -1,4 +1,9 @@
 
 .navbar a{
-    font-weight: 700 !important;
+    font-weight: 700;
+}
+
+.navbar-brand{
+    margin: 5px;
+    font-family: 'Lucida Sans', Arial, sans-serif;
 }
