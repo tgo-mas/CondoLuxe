@@ -1,4 +1,8 @@
 
+body{
+    background-color: rgb(112, 177, 221);
+}
+
 .navbar a{
     font-weight: 700;
 }
@@ -6,4 +10,9 @@
 .navbar-brand{
     margin: 5px;
     font-family: 'Lucida Sans', Arial, sans-serif;
+}
+
+#carouselUnidades{
+    max-width: 80%;
+    margin: 0 auto;
 }
