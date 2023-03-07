@@ -44,3 +44,27 @@ body{
 .card{
     margin: 60px;
 }
+
+footer{
+    background-color: aquamarine;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+footer .container{
+    display: flex;
+}
+
+footer .container div{
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 100%;
+    text-align: justify;
+    width: 50%;
+}
+
+@media (max-width: 576px) {
+    #carrosselUnidades{
+        width: 100vw !important;
+    }
+}
