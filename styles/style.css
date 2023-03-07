@@ -36,3 +36,11 @@ body{
     color: white;
 }
 
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 60px;
+}
